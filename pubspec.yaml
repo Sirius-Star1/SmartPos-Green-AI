@@ -1,0 +1,31 @@
+name: smartpos_green_ai
+description: "SmartPOS Green AI - Sistem Kasir Digital Berbasis Eco Points dan Digital Receipt untuk UMKM Berkelanjutan"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  qr_flutter: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/logo.jpeg # FIX: Dideklarasikan secara spesifik agar dibaca Flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "C:\\Users\\Rafi Akbar Muzaki\\Documents\\SAHARA\\flutter_application_1\\assets\\logo.jpeg"
+  min_sdk_android: 21
